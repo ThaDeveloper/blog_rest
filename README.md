@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple Rails API to get you started building production level REST APIs
+#### Ruby/Rails version
+`ruby 2.6.3 `
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`Rails 6.0.0`
+#### Install dependencies
+`bundle install`
+#### Configuration
+Ensure to change the database configurations to your needs under <confi/database.yml>.
+#### Database creation
+`rake db:create`
+#### Database migration
+`rake db:migrate`
+#### Database seeding
+`rails db:seed`
+#### How to run the test suite
+`rails test`
+#### Run app
+`rails s`
