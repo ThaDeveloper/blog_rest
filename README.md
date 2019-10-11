@@ -1,4 +1,4 @@
-# README
+# Blog API
 
 A simple Rails API to get you started building production level REST APIs
 #### Ruby/Rails version
